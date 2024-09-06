@@ -1,0 +1,26 @@
+[
+    {
+        "name":"Big Corporation",
+        "NumberOfEmployees": 200,
+        "CEO": "Mary",
+        "rating":4.5
+    },
+    {
+        "name": "Service Base",
+        "NumberOfEmployees":100,
+        "CEO":null,
+        "rating":3.5
+    },
+    {
+        "name": "Startup",
+        "NumberOfEmployees":20,
+        "CEO":"Mohit",
+        "rating":null
+    },
+    {
+        "name": "Product base",
+        "NumberOfEmployees":100,
+        "CEO":"mohit",
+        "rating":4.0
+    }
+]
