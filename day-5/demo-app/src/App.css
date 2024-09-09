@@ -1,0 +1,33 @@
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+table{
+  border: 2px solid black;
+  width: 20%;
+  border-collapse: collapse;
+}
+th{
+  background-color: blueviolet;
+}
+th,td{
+  border: 2px solid black;
+  align-items: center;
+ 
+}
