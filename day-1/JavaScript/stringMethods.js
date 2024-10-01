@@ -25,6 +25,7 @@ console.log(typeof(s1));  // converting number to string
 let num2=Number(s1);
 console.log(typeof(num2));
 
+
 let s2="    Darshan     ";
 console.log(s2);
 let s3=s2.trim();

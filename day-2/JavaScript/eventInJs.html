@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Click Example</title>
+</head>
+
+<body>
+    <button>Click me!</button>
+
+    <script>
+        // Select the button element
+        const button = document.querySelector('button');
+
+
+        // Add a click event listener to the button
+        // button.addEventListener('click', function(event) {
+        //     alert('Button clicked!');
+        // });
+
+        // button.addEventListener('click', function (event) {
+        //     console.log(event.type); // 'click'
+        //     console.log(event.target); // the button element
+        // });
+
+        function handleClick(event) {
+            alert('Button clicked!');
+        }
+
+        // Add a click event listener to the button
+        // button.addEventListener('click', handleClick);
+
+        // Remove the click event listener (this will prevent the handler from being called)
+        button.removeEventListener('click', handleClick);
+    </script>
+</body>
+
+</html>

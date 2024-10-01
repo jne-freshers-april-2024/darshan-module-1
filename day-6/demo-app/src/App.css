@@ -1,0 +1,47 @@
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+table{
+  border: 2px solid black;
+  width: 20%;
+  border-collapse: collapse;
+}
+th{
+  background-color: blueviolet;
+}
+th,td{
+  border: 2px solid black;
+  align-items: center;
+ 
+}
+.card{
+  
+  max-width: 12px;
+  box-shadow: 0 1px 8px reba(0,0,0,0.25);
+}
+.card-item{
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  padding: 0.5;
+  align-items: center;
+  background-color: blue;
+
+}

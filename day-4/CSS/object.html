@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Json Example</title>
+</head>
+
+<body>
+    <script type="text/Javascript">
+        let companies=[
+                            {
+                                "name":"Big Corporation",
+                                "NumberOfEmployees": 200,
+                                "CEO": "Mary",
+                                "rating":4.5
+                            },
+                            {
+                                "name": "Service Base",
+                                "NumberOfEmployees":100,
+                                "CEO":null,
+                                "rating":3.5
+                            },
+                            {
+                                "name": "Startup",
+                                "NumberOfEmployees":20,
+                                "CEO":"Mohit",
+                                "rating":null
+                            },
+                            {
+                                "name": "Product base",
+                                "NumberOfEmployees":100,
+                                "CEO":"mohit",
+                                "rating":4.0
+                            }
+                        ]
+
+    // console.log(companies);
+
+    // let allRating=companies.map((key)=>key.rating);
+
+     // for(let all in companies){
+    //     console.log(companies[all].rating);
+    // }
+
+    // console.log(allRating);
+
+    // find company ceo name whose rating more than or equal 4
+
+    // let newCompanies = companies.filter((company)=> {
+    //     if(company.rating >=4 ){
+    //         return company.CEO;
+    //     }
+    // })
+
+    // newCompanies.forEach((company) => {
+    //     console.log(company.CEO);
+    // });
+
+
+    companies.forEach((company) => {
+        if(company.rating ==4.0){
+            company.CEO="rohit";
+        }
+    });
+
+
+   
+   
+    
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+.new_inputforms_controls {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 10%;
+    background-color: #f9f9f9;
+  }
+  
+  .new_inputforms_control {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .new_inputforms_control label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .new_inputforms_control {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    background-color: blue;
+    border: none;
+    border-radius: 3px;
+    color: white; 
+    margin-left: 20%;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

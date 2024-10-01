@@ -1,0 +1,15 @@
+h2{
+    color: blue;
+}
+.blue{
+    color: red;
+}
+
+.box{
+    height: 100px;
+    width:100 px;
+    padding: 20px;
+    margin: 50px;
+    border: 5px solid red ;
+    background-color:green;
+}
